@@ -1,0 +1,1 @@
+https://github.com/everydaytimmy/math-series/pull/1
