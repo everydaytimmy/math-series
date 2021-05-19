@@ -51,6 +51,11 @@ def test_sum2():
   expected = 4
   assert actual == expected
 
+def test_sum3():
+  actual = sum_series(4, 2, 1)
+  expected = 7
+  assert actual == expected
+
 
 
 
