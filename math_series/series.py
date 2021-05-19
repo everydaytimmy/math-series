@@ -20,3 +20,14 @@ def lucas(n):
     else:
       return(lucas(n-1) + lucas(n-2))
 
+
+def sum_series(x,y=0,z=1):
+
+  if x == 0:
+      return y
+  if x == 1:
+      return z 
+  else:
+    return(sum_series(x-1, y, z) + sum_series(x-2, y, z))
+  
+
